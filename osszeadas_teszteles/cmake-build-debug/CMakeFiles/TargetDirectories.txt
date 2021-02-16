@@ -1,0 +1,3 @@
+D:/DSA_lab/DSA_lab_Bartha_Tibor/osszeadas_teszteles/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DSA_lab/DSA_lab_Bartha_Tibor/osszeadas_teszteles/cmake-build-debug/CMakeFiles/osszeadas_teszteles.dir
+D:/DSA_lab/DSA_lab_Bartha_Tibor/osszeadas_teszteles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
