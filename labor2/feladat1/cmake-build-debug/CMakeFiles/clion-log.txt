@@ -1,0 +1,1 @@
+CMakeLists.txt not found in D:\DSA_lab\DSA_lab_Bartha_Tibor\labor2\feladat1 Select CMakeLists.txt
