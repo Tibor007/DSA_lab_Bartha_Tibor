@@ -17,7 +17,7 @@ void printArray(int *array, int n) {
 
 void fillArray(int *array, int n, int max) {
     for (int i = 0; i < n; i++)
-        array[i] = rand() % max;
+        array[i] = i+1;
 }
 
 int linearSearch(int *array, int n, int number) {
@@ -28,5 +28,6 @@ int linearSearch(int *array, int n, int number) {
     for (int i = 0; i < n && foundIndex == -1; i++)
         if (array[i] == number) {
             foundIndex = i;
+
         }
 }

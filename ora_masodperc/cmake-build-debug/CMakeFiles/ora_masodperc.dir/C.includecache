@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/ora_masodperc/functions.c
+functions.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/ora_masodperc/functions.h
+stdio.h
+-
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/ora_masodperc/functions.h
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/ora_masodperc/main.c
+stdio.h
+-
+functions.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/ora_masodperc/functions.h
+

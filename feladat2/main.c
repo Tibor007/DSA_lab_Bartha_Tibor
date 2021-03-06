@@ -4,16 +4,16 @@
 
 #include "functions.h"
 
-const int N = 10000;
+const int N = 10000000;
 
 int main() {
 
     srand(time(NULL));
 
     int *array = (int *) malloc(N * sizeof(int));
-    int number = rand() % N;
+    int number = N-1;
 
-    printf("%i\n", 10000);
+    printf("%i\n", N);
 
     fillArray(array, N, N);
 
