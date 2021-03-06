@@ -1,0 +1,3 @@
+"D:\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\masodfoku_egyenlet.dir/objects.a
+C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\masodfoku_egyenlet.dir/objects.a @CMakeFiles\masodfoku_egyenlet.dir\objects1.rsp
+C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\masodfoku_egyenlet.dir/objects.a -Wl,--no-whole-archive  -o masodfoku_egyenlet.exe -Wl,--out-implib,libmasodfoku_egyenlet.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\masodfoku_egyenlet.dir\linklibs.rsp
