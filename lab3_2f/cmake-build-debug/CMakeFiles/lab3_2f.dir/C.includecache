@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/lab3_2f/functions.c
+functions.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/lab3_2f/functions.h
+stdlib.h
+-
+stdio.h
+-
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/lab3_2f/functions.h
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/lab3_2f/main.c
+stdio.h
+-
+functions.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/lab3_2f/functions.h
+

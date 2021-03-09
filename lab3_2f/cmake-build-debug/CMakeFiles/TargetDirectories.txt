@@ -1,0 +1,3 @@
+D:/DSA_lab/DSA_lab_Bartha_Tibor/lab3_2f/cmake-build-debug/CMakeFiles/lab3_2f.dir
+D:/DSA_lab/DSA_lab_Bartha_Tibor/lab3_2f/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DSA_lab/DSA_lab_Bartha_Tibor/lab3_2f/cmake-build-debug/CMakeFiles/rebuild_cache.dir
