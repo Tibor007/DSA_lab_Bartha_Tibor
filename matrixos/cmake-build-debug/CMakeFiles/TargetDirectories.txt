@@ -1,0 +1,3 @@
+D:/DSA_lab/DSA_lab_Bartha_Tibor/matrixos/cmake-build-debug/CMakeFiles/matrixos.dir
+D:/DSA_lab/DSA_lab_Bartha_Tibor/matrixos/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DSA_lab/DSA_lab_Bartha_Tibor/matrixos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
