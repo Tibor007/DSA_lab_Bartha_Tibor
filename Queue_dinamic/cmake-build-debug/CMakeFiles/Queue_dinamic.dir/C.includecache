@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/Queue_dinamic/functions.c
+functions.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/Queue_dinamic/functions.h
+stdlib.h
+-
+stdio.h
+-
+limits.h
+-
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/Queue_dinamic/functions.h
+stdbool.h
+-
+

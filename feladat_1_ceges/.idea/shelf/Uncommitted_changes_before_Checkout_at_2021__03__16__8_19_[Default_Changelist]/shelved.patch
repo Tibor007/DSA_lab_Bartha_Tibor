@@ -1,0 +1,110 @@
+Index: functions.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/functions.c b/functions.c
+new file mode 100644
+--- /dev/null	(date 1615631682202)
++++ b/functions.c	(date 1615631682202)
+@@ -0,0 +1,50 @@
++//
++// Created by Tibor on 2021. 03. 13..
++//
++
++#include "functions.h"
++#include <stdio.h>
++#include <stdlib.h>
++
++CEG *create(int n) {
++    CEG *a = (CEG *) malloc(n * sizeof(int));
++    return a;
++}
++
++void read_data(CEG *a, int n, FILE *fp) {
++    for (int i = 0; i < n; ++i) {
++        fscanf(fp, "%s", a[i].name);
++        fscanf(fp, "%c", &a[i].education);
++
++        printf("%c", a[i].education);
++
++        if (a[i].education == 'K') {
++            fscanf(fp, "%s", a[i].kv.hschool);
++            fscanf(fp, "%f", &a[i].kv.average);
++            printf("%s %c %s %f", a[i].name, a[i].education, a[i].kv.hschool, a[i].kv.average);
++        } else if (a[i].education == 'F') {
++            fscanf(fp, "%s", a[i].ff.university);
++            fscanf(fp, "%s", a[i].ff.department);
++            fscanf(fp, "%f", &a[i].ff.average);
++        }
++
++    }
++}
++
++void write_data(CEG *a, int n) {
++    for (int i = 0; i < n; ++i) {
++        printf("%i. worker name: %s", i + 1, a[i].name);
++
++        if (a[i].education == 'N') {
++            printf("\nThe worker doesn't have education!");
++        } else if (a[i].education == 'K') {
++            printf("\nHigh school: %s", a[i].kv.hschool);
++            printf("\nAverage: %f", a[i].kv.average);
++        } else if (a[i].education == 'F') {
++            printf("\nUniversity: %s", a[i].ff.university);
++            printf("\nDepartment: %s", a[i].ff.department);
++            printf("\nAverage: %f", a[i].ff.average);
++        } else
++            printf("@@@@@@");
++    }
++}
+\ No newline at end of file
+Index: functions.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/functions.h b/functions.h
+new file mode 100644
+--- /dev/null	(date 1615630635179)
++++ b/functions.h	(date 1615630635179)
+@@ -0,0 +1,39 @@
++//
++// Created by Tibor on 2021. 03. 13..
++//
++
++#ifndef FELADAT_1_CEGES_FUNCTIONS_H
++#define FELADAT_1_CEGES_FUNCTIONS_H
++#include <stdlib.h>
++#include <stdio.h>
++
++typedef struct {
++    char hschool[50];
++    float average;
++}KOZEPFOK;
++
++typedef struct {
++    char university[50];
++    char department[50];
++    float average;
++}FELSOFOK;
++
++typedef struct {
++    char name[25];
++    char education;
++    KOZEPFOK kv;
++    FELSOFOK ff;
++}CEG;
++
++//helyfoglalas
++CEG* create(int n);
++
++//hely_felszabaditas
++//void destory(CEG* a,int n);
++
++//adatok_beolvasasa
++void read_data(CEG* a, int n, FILE *f);
++
++//adatok kiiras
++void write_data(CEG* a, int n);
++#endif //FELADAT_1_CEGES_FUNCTIONS_H
