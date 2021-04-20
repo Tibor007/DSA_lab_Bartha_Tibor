@@ -1,0 +1,3 @@
+D:/DSA_lab/DSA_lab_Bartha_Tibor/Digit/cmake-build-debug/CMakeFiles/Digit.dir
+D:/DSA_lab/DSA_lab_Bartha_Tibor/Digit/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DSA_lab/DSA_lab_Bartha_Tibor/Digit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
