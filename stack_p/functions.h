@@ -1,5 +1,4 @@
 //
-// Created by Huni on 4/13/2021.
 //
 
 #ifndef STACK_FUNCTIONS_H

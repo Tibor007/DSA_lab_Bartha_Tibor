@@ -1,5 +1,4 @@
 //
-// Created by Huni on 4/13/2021.
 //
 
 #include "functions.h"
