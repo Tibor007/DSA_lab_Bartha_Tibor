@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/hasito_tabla/function.c
+stdlib.h
+-
+stdio.h
+-
+function.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/hasito_tabla/function.h
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/hasito_tabla/function.h
+

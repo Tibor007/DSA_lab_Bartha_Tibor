@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/parcialis_m/functions.c
+functions.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/parcialis_m/functions.h
+stdlib.h
+-
+stdio.h
+-
+limits.h
+-
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/parcialis_m/functions.h
+stdio.h
+-
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/parcialis_m/main.c
+stdio.h
+-
+functions.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/parcialis_m/functions.h
+
