@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/minta/1es_feladat/Stack.h
+stdbool.h
+-
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/minta/2_feladat/BinarySearchTree.c
+BinarySearchTree.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/minta/2_feladat/BinarySearchTree.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/minta/2_feladat/BinarySearchTree.h
+
+D:/DSA_lab/DSA_lab_Bartha_Tibor/minta/main.c
+stdio.h
+-
+1es_feladat/Stack.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/minta/1es_feladat/Stack.h
+2_feladat/BinarySearchTree.h
+D:/DSA_lab/DSA_lab_Bartha_Tibor/minta/2_feladat/BinarySearchTree.h
+string.h
+-
+
